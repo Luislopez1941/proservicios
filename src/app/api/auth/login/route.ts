@@ -1,24 +1,26 @@
+import axios from 'axios';
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(req: NextRequest) {
   try {
-    const response = await fetch('https://jllc-back.com/proservicios/api/general_login', {
-      method: 'POST',
+    const body = await req.json();
+
+    const response = await axios.post('https://jllc-back.com/proservicios/api/general_login', body, {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(await req.json()),
+      // Deshabilitar la validación de certificados SSL (solo para desarrollo)
+      httpsAgent: new (require('https').Agent)({ rejectUnauthorized: false }),
     });
 
-    const data = await response.json();
+    const data = response.data;
     console.log(data);
 
-    if (!response.ok) {
-      console.error('Error de API:', data); // Log de error si no es ok
+    if (response.status !== 200) {
+      console.error('Error de API:', data);
       return NextResponse.json({ error: data.message }, { status: response.status });
     }
 
-    
     const dataCookies = {
       id: data.data?.id,
       name: data.data?.firstName || '',
@@ -27,7 +29,6 @@ export async function POST(req: NextRequest) {
       token: data.token,
       id_municipality: data.data?.id_municipality || '',
       id_locality: data.id_locality,
-      
     };
 
     const serializedData = JSON.stringify(dataCookies);
