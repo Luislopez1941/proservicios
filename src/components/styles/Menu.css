@@ -1,0 +1,32 @@
+.manu__main {
+    display: none;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.manu__main > .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.manu__main > .content svg {
+    color: #3F7DC0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .manu__main {
+        display: block;
+    }
+}
+

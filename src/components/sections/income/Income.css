@@ -1,0 +1,105 @@
+.income__container {
+    padding: 20px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr 70px;
+    gap: 10px;
+    overflow: auto;
+}
+
+.income__container .nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.income__container .nav>.conatiner__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.income__container .nav>.conatiner__nav>.item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+}
+
+.income__container .nav>.conatiner__nav>.item>p {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.income__container .nav .btn__add>button {
+    background-color: #F2A541;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--border-radius-general);
+    transition: all 400ms;
+    border-radius: 3px;
+ 
+}
+
+
+.income__container>.income {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+}
+
+.income__container>.income.active {
+    display: grid;
+}
+
+
+
+.income__container>.income {
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+
+}
+
+
+
+.income__container>.sales {
+    display: none;
+    border: 2px solid #f2f2f2;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.income__container>.sales.active {
+    display: grid;
+}
+
+
+.income__container>.jobs {
+    display: none;
+    grid-template-rows: auto 1fr;
+    border: 2px solid #f2f2f2;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+
+.income__container>.jobs.active {
+    display: grid;
+}
+
+
+

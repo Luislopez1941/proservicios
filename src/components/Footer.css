@@ -1,0 +1,141 @@
+.footer {
+  background-color: #3F7DC0;
+  color: #f5f6f7;
+  padding-top: 3rem; /* py-12 */
+  padding-bottom: 3rem; /* py-12 */
+}
+
+.footer .container {
+  max-width: 1200px; /* Puedes ajustar según tu diseño */
+  margin: 0 auto;
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+}
+
+.footer .grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* grid-cols-1 */
+  gap: 2rem; /* gap-8 */
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+@media (min-width: 640px) { /* sm */
+  .footer .grid {
+    grid-template-columns: repeat(2, 1fr); /* sm:grid-cols-2 */
+  }
+}
+
+@media (min-width: 1024px) { /* lg */
+  .footer .grid {
+    grid-template-columns: repeat(4, 1fr); /* lg:grid-cols-4 */
+  }
+}
+
+.footer h3 {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.footer ul {
+  padding-left: 0; /* Eliminamos el padding por defecto */
+  list-style: none; /* Eliminamos las viñetas */
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem; /* space-y-2 */
+}
+
+.footer a {
+  transition: color 0.3s; /* transition-colors */
+}
+
+
+.footer .border-t {
+  border-top: 1px solid rgba(245, 246, 247, 0.2); /* border-[#f5f6f7]/20 */
+  padding-top: 2rem; /* pt-8 */
+}
+
+.footer .flex {
+  display: flex;
+}
+
+.footer .flex-col {
+  flex-direction: column;
+}
+
+.footer .md\:flex-row {
+  display: flex; /* Flex direction will be adjusted in media query */
+}
+
+.social-networks {
+  display: flex;
+  column-gap: 20px;
+}
+
+.social-networks .social-icon {
+  background-color: #f5f6f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  color: var(--primary-color);
+}
+
+.footer .justify-between {
+  justify-content: space-between;
+}
+
+.footer .items-center {
+  align-items: center;
+}
+
+.footer .text-3xl {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700; /* font-bold */
+}
+
+.footer .space-x-4 {
+  margin-right: -1rem; /* Adjusting margin for spacing */
+}
+
+.footer .space-x-4 > * {
+  margin-left: 1rem; /* Ajustando el espacio horizontal entre iconos */
+}
+
+.footer .mb-4 {
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.footer .text-sm {
+  font-size: 0.875rem; /* text-sm */
+}
+
+.footer .text-center {
+  text-align: center;
+}
+
+.footer .md\:text-left {
+  text-align: left; /* Ajustar en media query */
+}
+
+.footer .mt-4 {
+  margin-top: 1rem; /* mt-4 */
+}
+
+.footer .mt-2 {
+  margin-top: 0.5rem; /* mt-2 */
+}
+
+.footer .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

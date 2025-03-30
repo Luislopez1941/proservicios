@@ -1,0 +1,276 @@
+.searches {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 10px;
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+.nav__searches {
+
+}
+
+
+
+
+
+.searches .container__result {
+    display: flex;
+    align-items: center;
+    border: 2px solid #f3f3f3;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.searches .container__result > .item {
+    display: flex;
+    align-items: center;
+    
+}
+
+.searches .container__result > .item > p {
+    margin: 0;
+    color: #c0c0c0;
+   
+}
+
+
+.searches .container__result > .item > .icon_svg {
+    margin-right: 10px;
+
+    
+}
+
+.searches .container__result > .item > svg {
+    color: #c0c0c0;
+    
+}
+
+
+.searches>.filter {
+    display: flex;
+}
+
+.searches>.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+
+.searches>.options .row__one {
+    display: flex;
+    width: min-content;
+    overflow-x: auto;
+    /* Habilita el scroll horizontal */
+    white-space: nowrap;
+    /* Evita el salto de línea */
+    gap: 10px;
+    /* Espacio entre elementos (ajústalo según necesites) */
+    padding: 10px 0;
+    /* Añade un poco de padding para mejor apariencia */
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    /* mejora el comportamiento del scroll en dispositivos táctiles de Apple */
+    scrollbar-width: none;
+}
+
+
+.searches .options>.row__one div {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 40px;
+    padding: 0 10px;
+    background-color: rgba(63, 125, 192, 0.1);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.searches .options>.row__one div svg {
+
+    color: var(--primary-color);
+
+}
+
+.searches>.row__three {
+    display: none;
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.searches>.row__three .btn__create-job {
+
+    border: 2px solid #3F7DC0;
+    height: 40px;
+    padding: 5px 10px;
+    color: #3F7DC0;
+    cursor: pointer;
+    transition: all 400ms;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+.searches .options p {
+    margin-left: 10px;
+}
+
+.searches .options>.row__three .btn__create-job {
+    border: 2px solid #3F7DC0;
+    padding: 5px 10px;
+    color: #3F7DC0;
+    cursor: pointer;
+    transition: all 400ms;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.searches .search {
+    display: flex;
+
+}
+
+
+
+
+.searches .filter__service .input .inputs__general {
+    height: 30px;
+    margin-top: 0;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+
+
+.searches .search .inputs__general {
+    height: 30px;
+    margin-top: 0;
+    margin-right: 10px;
+
+}
+
+.searches .btn_search {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.searches .btn_search>.text {
+    display: none;
+}
+
+
+.searches .btn_search .icon {
+    transform: rotate(90deg);
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+.main__container {
+    overflow: auto;
+    
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        height: 100px;
+    }
+
+    &::-webkit-scrollbar-track {}
+
+}
+
+
+
+.searches .options>.row__two .btn__create-job {
+    border: 2px solid #3F7DC0;
+    padding: 5px 10px;
+    color: #3F7DC0;
+    cursor: pointer;
+    transition: all 400ms;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.searches .cards__job {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  
+    height: 100%;
+    transition-delay: 0.0s;
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .searches {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .searches .filter {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: 1fr;
+        gap: 20px;
+
+    }
+
+    .searches .btn_search>.text {
+        display: block;
+    }
+
+    .searches .btn_search {
+        height: 40px;
+        width: 100%;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+
+    .searches>.options {
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+    }
+
+    .filter__select {
+        margin-left: 0px;
+    }
+
+
+
+    .searches>.row__three {
+        display: flex;
+    }
+
+    .searches .options>.row__two .btn__create-job {
+        display: none;
+    }
+}

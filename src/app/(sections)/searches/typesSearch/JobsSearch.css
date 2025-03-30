@@ -1,0 +1,230 @@
+.job__search_filter {
+    display: grid;
+    gap: 20px;
+}
+
+.job__search_filter > .row__one {
+	display: flex;
+    gap: 10px;
+}
+
+
+.job__search_filter .search__container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 15px;
+}
+
+.job__search_filter > .row__one .container__input.localities {
+	position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 20;
+}
+
+.job__search_filter > .row__one .container__input.localities .input {
+	width: 90%;
+    margin: 20px auto 0 auto;
+    
+}
+
+
+.job__search_filter > .row__one .container__input .input_container_main {
+	display: none;
+    padding: 20px;
+}
+
+.job__search_filter > .row__one .container__input .input_container_main.localities {
+	display: grid;
+    height: 100%;
+}
+
+
+.job__search_filter > .row__one .container__input .input_container_main .container__result_localities  {
+	display: grid;
+    overflow: auto;
+    grid-template-rows: 1fr;
+    height: min-content;
+    gap: 10px;
+}
+
+.job__search_filter > .row__one .container__input .input_container_main .container__result_localities .options__localities_container  {
+	display: flex;
+    gap: 10px;
+    color: #666;
+}
+
+
+
+.job__search_filter > .row__one .container__input > .input {
+    display: flex;
+    align-items: center;
+	background-color: #f9fafb;
+	border: 1.5px solid #e5e7eb;
+	margin-top: 0;
+	outline: none;
+	padding: 10px 0;
+	border-radius: 3px;
+	text-indent: 15px;
+	border-radius: 10px;
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job__search_filter > .row__one {
+	display: flex;
+    gap: 10px;
+}
+
+
+.job__search_filter .search__container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 15px;
+}
+
+.job__search_filter > .row__one .container__input.type_profession {
+	position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 20;
+}
+
+.job__search_filter > .row__one .container__input.type_profession .input {
+	width: 90%;
+    margin: 20px auto 0 auto;
+    
+}
+
+
+.job__search_filter > .row__one .container__input .input_container_main {
+	display: none;
+    padding: 20px;
+}
+
+.job__search_filter > .row__one .container__input .input_container_main.type_profession {
+	display: grid;
+    height: 100%;
+}
+
+
+.job__search_filter > .row__one .container__input .input_container_main .container__result_localities  {
+	display: grid;
+    overflow: auto;
+    grid-template-rows: 1fr;
+    height: min-content;
+    gap: 10px;
+}
+
+.job__search_filter > .row__one .container__input .input_container_main .container__result_localities .options__localities_container  {
+	display: flex;
+    gap: 10px;
+    color: #666;
+}
+
+
+
+.job__search_filter > .row__one .container__input > .input {
+    display: flex;
+    align-items: center;
+	background-color: #f9fafb;
+	border: 1.5px solid #e5e7eb;
+	margin-top: 0;
+	outline: none;
+	padding: 10px 0;
+	border-radius: 3px;
+	text-indent: 15px;
+	border-radius: 10px;
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job__search_filter > .row__one .container__input > .input .inputs__generic  {
+	background-color: #f9fafb;
+
+}
+
+
+
+
+
+/* Estilo para el encabezado de la sección */
+.popup__modal_filter_searches .nav__main__searches .item {
+	font-size: 12px;
+	font-weight: 500;
+	color: #2c3e50;
+	margin-bottom: 15px;
+}
+
+/* Estilo para la barra de búsqueda */
+.popup__modal_filter_searches .nav__main__searches {
+	display: flex;
+	gap: 12px;
+}
+
+/* Estilo para cada ítem en la lista */
+.popup__modal_filter_searches .nav__main__searches .item {
+	padding: 5px;
+	background-color: var(--secondary-color);
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+
+
+.filter__select {}
+
+.filter__select .input {
+	display: flex;
+	align-items: center;
+	border: 2px solid #f3f3f3;
+	height: 45px;
+	border-radius: 50px;
+}
+
+

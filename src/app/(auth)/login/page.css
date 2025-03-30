@@ -1,0 +1,103 @@
+.login {
+    background-color: #fff;
+    height: 100vh;
+}
+
+.login__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+}
+
+.login__container .left {
+    padding: 20px;
+}
+
+.login__container .left > div {
+    background-color: var(--primary-color);
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.login__container .right {
+ 
+}
+
+
+.login__container .right > .right__container {
+    display: block;
+}
+
+
+
+
+
+.form__login {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form__login > .titles .title__main {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.logins {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 25px auto 0 auto;
+}
+
+.logins > div {
+    display: flex;
+    background-color: #709ed023;
+    padding: 10px;
+    color: #2b2b2b;
+    border-radius: 5px;
+}
+
+.logins > div > p {
+    margin-left: 5px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    
+    .logins {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 25px auto 0 auto;
+    }
+
+    .login__container .right {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+
+    .logins > div > p {
+        display: none;
+    }
+
+    .login__container .left {
+        display: none;
+    }
+
+    .login__container {
+        display: grid;
+        grid-template-columns: 100%;
+        height: 100%;
+    }
+}

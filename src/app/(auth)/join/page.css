@@ -1,0 +1,437 @@
+:root {
+
+    --black-color-5: #333333;
+    --border-color: #dee6ee;
+    --background-color: #fff;
+    --text-color: #333333;
+    --text-light: #6c6c6e;
+    --input-height: 40px;
+    --border-radius: 10px;
+  }
+  
+  /* Contenedor principal */
+  .join {
+    background-color: var(--background-color);
+    height: 100vh;
+  }
+  
+  /* Layout de dos columnas */
+  .join__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+  }
+  
+  /* Columna izquierda */
+  .join__container .left {
+    padding: 20px;
+  }
+  
+  .join__container .left > div {
+    background-color: var(--primary-color);
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  /* Columna derecha */
+  .join__container .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  /* Formulario principal */
+  .join__container .form__join {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Títulos */
+  .join__container .form__join .titles .title__main {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .join__container .form__join .titles .title__warning {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .join__container .form__join .titles .title__warning > p {
+    padding: 10px;
+    background-color: #709ed042;
+    border-radius: 3px;
+    color: #4a7eb4;
+  }
+  
+  /* Encabezado del formulario */
+  .join__container .form-header_join {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .join__container .form-header_join h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--tertiary-color);
+    margin-bottom: 8px;
+  }
+  
+  .join__container .form-header_join p {
+    font-size: 14px;
+    color: var(--text-light);
+  }
+  
+  /* Botones de inicio de sesión social */
+  .join__container .social-login_join {
+    
+    gap: 12px;
+    margin: 24px 0;
+  }
+
+  .join__container .social-login_join > .container__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .join__container .social-button_join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    height: var(--input-height);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .join__container .social-button_join:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Separador */
+  .join__container .separator_join {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+  }
+  
+  .join__container .separator_join::before,
+  .join__container .separator_join::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: var(--border-color);
+  }
+  
+  .join__container .separator_join span {
+    padding: 0 12px;
+    font-size: 12px;
+    color: var(--text-light);
+  }
+  
+  /* Contenedor del formulario */
+  .join__container .form__join .form__join_container {
+    padding: 30px 0;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  /* Filas del formulario */
+  .join__container .form__join_container .row__one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+  
+  /* Inputs */
+  .join__container .form__join_container .inputs__general {
+    border: 1.5px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    width: 100%;
+   
+  }
+  
+  .join__container .form__join_container .inputs__general:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+  
+  /* Checkbox de términos y condiciones */
+  .join__container .checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 10px 0;
+  }
+  
+  .join__container .checkbox-group input[type="checkbox"] {
+    margin-top: 3px;
+    accent-color: var(--primary-color);
+  }
+  
+  .join__container .checkbox-group label {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.4;
+  }
+  
+  .join__container .checkbox-group a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .join__container .checkbox-group a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Botón de envío */
+  .join__container .submit-button {
+    width: 100%;
+    height: var(--input-height);
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+  }
+  
+  .join__container .submit-button:hover {
+    background-color: #3670af;
+  }
+  
+  /* Enlace de inicio de sesión */
+  .join__container .login-link {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .join__container .login-link p {
+    font-size: 14px;
+    color: var(--text-light);
+  }
+  
+  .join__container .text-link {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .join__container .text-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Botón de crear cuenta */
+  .join__container .form__join .btn {
+    width: 100%;
+  }
+  
+  .join__container .form__join .btn .btn__create {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Segunda pantalla - Ubicación */
+  .join__container .form__join-finally {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .join__container .form__join-finally .title {
+    font-size: 2rem;
+    color: var(--black-color-5);
+  }
+  
+  .join__container .form__join-finally .container__btn .btn__create-join {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Selectores de ubicación */
+  .join__container .select-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1.5px solid var(--border-color);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .join__container .select-btn > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  
+
+
+  .join__container .options {
+
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 0 0 10px 10px;
+    margin-top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .join__container .content {
+    padding: 0 !important;
+  }
+  
+  .join__container .options li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .join__container .options li:hover {
+    background-color: var(--primary-color);
+  }
+  
+  .join__container .my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .join__container .btn-back {
+    background-color: var(--primary-color);
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 768px) {
+    .join__container {
+      grid-template-columns: 100%;
+    }
+  
+    .join__container .left {
+      display: none;
+    }
+  
+    .join__container .right {
+      display: block;
+    }
+  
+    .join__container .right > div {
+      display: flex;
+      height: 100%;
+      position: relative;
+    }
+  
+    .join__container .form__join {
+      margin: auto;
+    }
+  
+    .join__container .form__join .form__join_container {
+      padding: 0;
+      gap: 10px;
+      margin: 20px 0;
+      grid-template-columns: 1fr;
+    }
+  
+    .join__container .form__join .btn .btn__create {
+      margin: 20px 0;
+      width: 100%;
+    }
+  
+    .join__container .form__join .titles .title__main {
+      margin-bottom: 30px;
+    }
+  
+    .join__container .form__join .titles .title__warning > p {
+      background-color: transparent;
+      color: var(--black-color-5);
+      padding: 0;
+    }
+  
+    .join__container .form__join-finally {
+      margin: auto;
+    }
+  
+  
+    .join__container .form__join-finally .container__btn .btn__create-join {
+      width: 100%;
+    }
+  
+    .join__container .btn-back {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: auto;
+    }
+  
+    /* Estilos responsivos para botones sociales */
+    .join__container .social-login_join {
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .join__container .social-button_join {
+      width: auto;
+      padding: 0 15px;
+    }
+  
+    .join__container .social-button_join span {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    
+    .join__container .form__join_container .row__two {
+    display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  }
+  
+  

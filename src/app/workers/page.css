@@ -1,0 +1,335 @@
+.profix {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+
+.workers .hero__workers {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+/* .workers .hero__workers > .row__one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.workers .hero__workers > .row__one .login__hero .icon__user {
+    height: 20px;
+}
+
+.workers .hero__workers .btns__hero {
+    display: flex;
+}
+
+.workers .hero__workers .btns__hero .btn-join__hero a {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.workers .hero__workers > .row__two {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 20px 0;
+    place-items: center;
+}
+
+.workers .hero__workers > .row__two .container__search_result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid var(--black-color-1);
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    padding: 0 10px;
+    color: var(--black-color-3);
+}
+
+.workers .hero__workers > .row__two .inputs__general {
+   display: flex;
+   align-items: center;
+   height: 40px;
+}
+
+.workers .hero__workers > .row__two .inputs__general:hover {
+    outline: none;
+}
+
+.workers .hero__workers > .row__two .inputs__general:hover svg {
+    color: var(--placeholder-color);
+}
+
+.workers .hero__workers > .row__two .inputs__general:focus svg {
+    color: var(--placeholder-color);
+}
+
+
+.workers .hero__workers > .row__two .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.workers .hero__workers > .row__two .filter_icon {
+    cursor: pointer;
+}
+
+.workers .hero__workers > .row__two .inputs__general_icons {
+    margin-top: 0;
+    border-radius: 50px;
+    padding: 0 10px;
+  
+  
+}
+
+.workers .hero__workers > .row__two .search svg {
+    color: var(--black-color-1);
+}
+
+
+
+.workers .hero__workers > .row__three .btn__filter {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    border: 1px solid var(--white-color-3)
+}
+
+.workers .hero__workers > .row__three .btn__filter > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workers .hero__workers > .row__three .btn__filter > svg {
+    margin-left: 10px;
+}
+
+/* .workers .hero > .row__two .filter > svg {
+    color: var(--primary-color);
+    width: 35px;
+    height: 35px;
+} */
+
+
+
+.hero__container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero__container .inputs__general_icons {
+    width: min-content;
+}
+
+
+.hero__container .inputs__general_icons .inputs__generic {
+    width: min-content;
+}
+
+.workers {
+
+}
+
+
+.workers > .main__workers {
+    width: 90%;
+    margin: 20px auto;
+    
+}
+
+.workers > .main__workers > .row__one {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; /* mejora el comportamiento del scroll en dispositivos táctiles de Apple */
+    scrollbar-width: none; /* Para ocultar en Firefox */
+}
+
+/* Para Safari y navegadores WebKit */
+.workers > .main__workers > .row__one::-webkit-scrollbar {
+    display: none; /* Oculta el scrollbar en Safari */
+}
+
+
+.workers > .main__workers > .row__one > .item {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    color: var(--black-color-3);
+    border: 1px solid var(--black-color-1);
+    border-radius: 5px;
+    
+}
+
+.workers > .main__workers > .row__one > .item > p {
+    margin-left: 10px;
+}
+
+
+.workers > .main__workers > .row__three {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.workers > .main__workers > .row__three .item {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.workers > .main__workers > .row__three .item .content__data {
+
+}
+
+.workers > .main__workers > .row__three .item .content__data {
+
+}
+
+.workers > .main__workers > .row__three .item .content__data .skills {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.workers > .main__workers > .row__three .item .content__data .starts {
+    color: #FFC107;
+}
+
+.workers > .main__workers > .row__three .item .content__data .btn > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.workers > .main__workers > .row__three .item > .image__container {
+    height: 200px;
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.row__pages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.row__pages > .chevron-left {
+    display: grid;
+    place-items: center;
+    background-color: #f2f2f2;
+    color: #666666;
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.row__pages > .chevron-right {
+    display: grid;
+    place-items: center;
+    background-color: #f2f2f2;
+    color: #666666;
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.row__pages {
+    margin: 40px 0;
+}
+
+.row__pages_container {
+    display: flex;
+    gap: 20px;
+  
+}
+
+
+.row__pages_container > div {
+    display: grid;
+    place-items: center;
+    background-color: #f2f2f2;
+    color: #666666;
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.row__pages_container > .active {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+     .workers .hero__workers > .row__two .inputs__general {
+        font-size: smaller;
+        border: 2px solid #f2f2f2;
+        border-radius: 5px;
+        height: 36px;
+    }
+
+    .workers .hero__workers > .row__two .inputs__general_icons {
+      border: 2px solid var(--black-color-1);
+    }
+
+    .workers .hero__workers > .row__two .filter_icon {
+        height: 35px;
+        width: 35px;
+        padding: 6px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        margin-left: 10px;
+    }
+    
+ 
+    .workers > .main__workers > .row__one > .item > p {
+        font-size: smaller;
+    }
+
+    
+    .workers .hero__workers > .row__three .btn__filter {
+        font-size: smaller;
+    }
+
+
+    .workers > .main__workers > .row__three .item > .image__container {
+        height: 300px;
+    }
+
+    .workers > .main__workers > .row__three {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    
+    
+
+}
+
+

@@ -1,0 +1,50 @@
+
+.sales__main > .hero {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+
+.sales__main .filter {
+    width: 100%;
+
+}
+
+
+.sales__main .container__result {
+    display: flex;
+    align-items: center;
+    border: 2px solid #f3f3f3;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sales__main .container__result > .item {
+    display: flex;
+    align-items: center;
+    
+}
+
+.sales__main .container__result > .item > p {
+    margin: 0;
+    color: #c0c0c0;
+   
+}
+
+
+.sales__main .container__result > .item > .icon_svg {
+    margin-right: 10px;
+
+    
+}
+
+.sales__main .container__result > .item > svg {
+    color: #c0c0c0;
+    
+}
+

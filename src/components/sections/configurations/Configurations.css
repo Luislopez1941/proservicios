@@ -1,0 +1,111 @@
+.configurations {
+  height: 100%;
+
+}
+
+.configurations__container {
+  height: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  padding-bottom: 70px;
+}
+
+.profile__container-login {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.configurations > .configurations__container .row__one {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 10px;
+} 
+
+.configurations > .configurations__container .row__one > .row__one {
+  /* width: 100%; */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.configurations > .configurations__container .row__one  .circle__profil {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+} 
+
+.configurations > .configurations__container .row__two {
+  
+}
+
+
+.configurations > .configurations__container .row__two > div {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+
+.configurations > .configurations__container .row__two > div > svg {
+  margin-right: 10px;
+}
+
+.row__three {
+
+}
+
+.row__three > .btn__close {
+  width: 100%;
+  background-color: rgba(63, 125, 192, 0.1);
+  color: var(--primary-color);
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+.configurations__container-login {
+  
+}
+
+.btn__login {
+
+  background-color: rgba(63, 125, 192, 0.1);
+  color: var(--primary-color);
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}

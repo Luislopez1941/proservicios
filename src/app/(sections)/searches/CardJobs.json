@@ -1,0 +1,149 @@
+[
+  {
+    "job_title": "Web Developer",
+    "job_description": "Responsible for creating and maintaining websites, ensuring user experience and performance optimization.",
+    "jobType": "Full-time",
+    "location": "Remote",
+    "salary": "5000 USD per month",
+    "postedDate": "2025-02-24",
+    "company": {
+      "name": "Tech Innovators",
+      "website": "https://techinnovators.com"
+    },
+    "skills": [
+      {
+        "name": "Plomero"
+      },
+      {
+        "name": "Plomero"
+      }
+    ],
+    "image": ""
+  },
+  {
+    "job_title": "Product Manager",
+    "job_description": "Oversees product development from concept to launch, working closely with development and marketing teams.",
+    "jobType": "Part-time",
+    "location": "San Francisco, CA",
+    "salary": "4000 USD per month",
+    "postedDate": "2025-02-20",
+    "company": {
+      "name": "Innovative Solutions",
+      "website": "https://innovativesolutions.com"
+    },
+    "skills": [
+      {
+        "name": "Plomero"
+      },
+      {
+        "name": "Plomero"
+      }
+    ],
+    "image": ""
+  },
+  {
+    "job_title": "Data Scientist",
+    "job_description": "Analyzes large sets of data to identify trends and assist in data-driven decision making.",
+    "jobType": "Full-time",
+    "location": "New York, NY",
+    "salary": "6000 USD per month",
+    "postedDate": "2025-02-18",
+    "company": {
+      "name": "Data Solutions Inc.",
+      "website": "https://datasolutions.com"
+    },
+    "skills": [
+      {
+        "name": "Plomero"
+      },
+      {
+        "name": "Plomero"
+      }
+    ],
+    "image": ""
+  },
+  {
+    "job_title": "UX Designer",
+    "job_description": "Designs and tests user interfaces to ensure a seamless and intuitive user experience.",
+    "jobType": "Freelance",
+    "location": "Remote",
+    "salary": "3000 USD per project",
+    "postedDate": "2025-02-22",
+    "company": {
+      "name": "Creative Designs",
+      "website": "https://creativedesigns.com"
+    },
+    "skills": [
+      {
+        "name": "Plomero"
+      },
+      {
+        "name": "Plomero"
+      }
+    ],
+    "image": ""
+  },
+  {
+    "job_title": "Marketing Specialist",
+    "job_description": "Develops and executes marketing strategies to promote brand awareness and customer engagement.",
+    "jobType": "Full-time",
+    "location": "Los Angeles, CA",
+    "salary": "4500 USD per month",
+    "postedDate": "2025-02-21",
+    "company": {
+      "name": "Brand Boosters",
+      "website": "https://brandboosters.com"
+    },
+    "skills": [
+      {
+        "name": "Plomero"
+      },
+      {
+        "name": "Plomero"
+      }
+    ],
+    "image": ""
+  },
+  {
+    "job_title": "Product Manager",
+    "job_description": "Oversees product development from concept to launch, working closely with development and marketing teams.",
+    "jobType": "Part-time",
+    "location": "San Francisco, CA",
+    "salary": "4000 USD per month",
+    "postedDate": "2025-02-20",
+    "company": {
+      "name": "Innovative Solutions",
+      "website": "https://innovativesolutions.com"
+    },
+    "skills": [
+      {
+        "name": "Plomero"
+      },
+      {
+        "name": "Plomero"
+      }
+    ],
+    "image": ""
+  },
+  {
+    "job_title": "Data Scientist",
+    "job_description": "Analyzes large sets of data to identify trends and assist in data-driven decision making.",
+    "jobType": "Full-time",
+    "location": "New York, NY",
+    "salary": "6000 USD per month",
+    "postedDate": "2025-02-18",
+    "company": {
+      "name": "Data Solutions Inc.",
+      "website": "https://datasolutions.com"
+    },
+    "skills": [
+      {
+        "name": "Plomero"
+      },
+      {
+        "name": "Plomero"
+      }
+    ],
+    "image": ""
+  }
+]

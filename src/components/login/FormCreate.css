@@ -1,0 +1,216 @@
+:root {
+    --primary-color: #3f7dc0;
+    --secondary-color: #f2a541;
+    --tertiary-color: #1f2937;
+    --background-color: #ffffff;
+    --border-color: #dee6ee;
+    --text-color: #333333;
+    --border-radius: 10px;
+    --input-height: 48px;
+    --spacing: 16px;
+  }
+  
+  .right__container .form-container {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+  }
+  
+ .right__container  .form-header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .right__container .form-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--tertiary-color);
+    margin-bottom: 8px;
+  }
+  
+  .right__container .form-header p {
+    font-size: 14px;
+    color: var(--text-light);
+  }
+  
+ .right__container .social-login {
+
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .right__container .social-login > .container__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+  }
+  
+  .right__container .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 0 15px;
+    height: var(--input-height);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .right__container .social-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .right__container .separator {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+  }
+  
+  .right__container .separator::before,
+ .right__container  .separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: var(--border-color);
+  }
+  
+ .right__container  .separator span {
+    padding: 0 12px;
+    font-size: 12px;
+    color: var(--text-light);
+  }
+  
+  .right__container .signup-form {
+    display: grid;
+
+    gap: 16px;
+  }
+
+  .right__container .inputs__general {
+    border: 1.5px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+
+  }
+  
+ .right__container  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  
+ .right__container  .form-group {
+    width: 100%;
+  }
+  
+  .right__container .form-group.half {
+    width: calc(50% - 8px);
+  }
+  
+
+  
+  .right__container .form-group input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+  
+  .right__container .checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .right__container .checkbox-group input[type="checkbox"] {
+    margin-top: 3px;
+    accent-color: var(--primary-color);
+  }
+  
+  .right__container .checkbox-group label {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.4;
+  }
+  
+  .right__container .checkbox-group a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .right__container .checkbox-group a:hover {
+    text-decoration: underline;
+  }
+  
+  .right__container .submit-button {
+    width: 100%;
+    height: var(--input-height);
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .right__container .submit-button:hover {
+    background-color: #3670af;
+  }
+  
+  .right__container .login-link {
+    text-align: center;
+    margin-top: 8px;
+  }
+  
+  .right__container .login-link p {
+    font-size: 14px;
+    color: var(--text-light);
+  }
+  
+  .right__container .text-link {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .right__container .text-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .right__container .form-container {
+      padding: 20px;
+    }
+    .right__container .social-login p {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .right__container .form-row {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .right__container .form-group.half {
+      width: 100%;
+    }
+  }
+  
+  

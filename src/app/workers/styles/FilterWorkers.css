@@ -1,0 +1,94 @@
+.overlay__modal_filter_workers {
+	background: rgba(0, 0, 0, .3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+	z-index: 10;
+}
+
+.overlay__modal_filter_workers.active {
+	visibility: visible;
+}
+
+.overlay__modal_filter_workers .header__modal {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.popup__modal_filter_workers {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 40px 20px 20px 20px;
+	width: 50vw;
+	max-width: 1450px;
+	height: auto;
+	display: grid;
+	max-height: 80vh;
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+	height: min-content;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.popup__modal_filter_workers .btn-cerrar-popup__modal_filter_workers {
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #BBBBBB;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+
+.popup__modal_filter_workers .svg__close {
+	fill: #3f7dc08c;
+}
+
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup__modal_filter_workers.active {
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+.modal_filter_searches .search {
+
+}
+
+.modal_filter_searches .search .container__inputs .input {
+    display: flex;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.modal_filter_searches .search .container__inputs .input .inputs__general {
+    margin-top: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .popup__modal_filter_workers {
+        width: 90vw;
+        height: auto;
+    }
+    
+}

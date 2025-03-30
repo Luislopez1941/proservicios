@@ -1,0 +1,445 @@
+
+
+.user__profile_update .backgorund-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user__profile_update .field__button-background {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+}
+
+.user__profile_update .image__portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: 200px;
+}
+
+.user__profile_update .image__portfolio_container .upload__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #f3f3f3;
+}
+
+.user__profile_update .image__portfolio_container .upload__image > svg {
+  width: 70px;
+  height: 70px;
+  color: var(--primary-color);
+}
+
+.user__profile_update .image__portfolio_container .photos__update {
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+
+
+
+.user__profile_update>.backgorund-profile {
+  width: 100%;
+  background-color: var(--white-color-3);
+  min-height: calc(100px + 15vw);
+}
+
+
+.user__profile_update .profile-information__container {
+  width: 90%;
+  margin: 40px auto 0 auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+
+
+
+.user__profile_update_update .profile-information__container >.left {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 40px auto 0 auto;
+}
+
+
+
+.left {
+  position: relative;
+}
+
+.user__profile_update .profile-information__container .img__container {
+  position: absolute;
+  top: -110px;
+
+}
+
+.user__profile_update .profile-information__container .img__container>.user-false {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.18);
+}
+
+.user__profile_update .profile-information__container .img__container>.user-true {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.18);
+}
+
+
+.user__profile_update .profile-information__container .img__container>.user-false svg {
+  width: 50px;
+  height: 50px;
+  color: #818181;
+}
+
+
+
+/* /////////////////////Name/////////////////////// */
+
+.user__profile_update .profile-information__container .name__conatiner {
+  margin: 20px auto;
+}
+
+
+.user__profile_update .profile-information__container .name__conatiner>.name {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: var(--black-color-5);
+}
+
+
+/* /////////////////////Description/////////////////////// */
+
+.user__profile_update .profile-information__container .description {
+  margin: 10px auto;
+}
+
+
+.user__profile_update .profile-information__container .description {
+  margin: 20px 0;
+}
+
+.user__profile_update .profile-information__container .description p {
+  text-align: left;
+}
+
+.user__profile_update .profile-information__container .description > .textarea__general {
+  border: 2px solid #f2f2f2;
+  border-radius: 10px;
+}
+
+
+.user__profile_update .profile-information__container .skills__container {
+  
+}
+
+.user__profile_update .profile-information__container .skills__container >p {
+  padding: 5px 10px;
+  background-color: rgb(244, 244, 245);
+
+  border-radius: 5px;
+  color: var(--black-color-3);
+}
+
+
+
+.user__profile_update .profile-information__container .skills__container > .add {
+  display: grid;
+  align-items: end;
+  width: 100%;
+  grid-template-columns: 1fr auto;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+
+.user__profile_update .profile-information__container .skills__container>.skills-add .skill-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: rgb(244, 244, 245);
+  border-radius: 5px;
+  color: var(--black-color-3);
+}
+
+
+.user__profile_update .profile-information__container .skills__container>.skills-add .remove-skill-button {
+  margin-left: 10px;
+  background: #d4d4d4;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+
+
+.user__profile_update .profile-information__container .skills__container  .add-skill-button {
+  background-color: var(--primary-color);
+  padding: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* .user__profile_update .row__one .left .profile-information__container  .skills__container .add-skill-button:hover {
+  background-color: #45a049;
+} */
+
+.user__profile_update .profile-information__container .skills-add {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+
+.user__profile_update .profile-information__container>.left .skills__container .select__container .select-btn>div {
+  margin-left: 0;
+}
+
+
+
+
+
+.user__profile_update .profile-information__container > .about {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.user__profile_update .profile-information__container .about__container {
+  display: block;
+}
+
+.user__profile_update .profile-information__container > .about .btn__edit_container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+
+
+.user__profile_update .profile-information__container > .about .btn__edit_container .btn__general-purple {
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+
+
+
+.user__profile_update .row__one .left h2 {
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+
+
+
+.user__profile_update  .about .options__profile {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+
+
+
+
+.user__profile_update .profile-information__container .about li {
+  display: flex;
+  flex-direction: column;
+  color: #818181;
+  font-size: 0.9rem;
+}
+
+.user__profile_update .profile-information__container .about li span {
+  color: #1d1d1d;
+  font-weight: 600;
+}
+
+.user__profile_update .profile-information__container .content p {
+  font-size: 1rem;
+  color: #1d1d1d;
+  line-height: 1.8em;
+}
+
+.user__profile_update .profile-information__container .content ul {
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.user__profile_update .profile-information__container .content ul li {
+  display: flex;
+}
+
+.user__profile_update .profile-information__container .content ul i {
+  font-size: 1.3rem;
+}
+
+.user__profile_update .profile-information__container .right__col nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.user__profile_update .profile-information__container .right__col nav ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.user__profile_update .profile-information__container .right__col nav ul li a {
+  text-transform: uppercase;
+  color: #818181;
+}
+
+.user__profile_update .profile-information__container .right__col nav ul li:nth-child(1) a {
+  color: #1d1d1d;
+  font-weight: 600;
+}
+
+.user__profile_update .profile-information__container .right__col nav button {
+  background: #0091ff;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.user__profile_update .profile-information__container .right__col nav button:hover {
+  opacity: 0.8;
+}
+
+.user__profile_update .profile-information__container .right__col .photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 20px;
+}
+
+.user__profile_update .profile-information__container .right__col .photos img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user__profile_update .image__portfolio {
+  width: 100%;
+
+
+}
+
+.user__profile_update .image__portfolio .tags {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user__profile_update .image__portfolio .tags a {
+  display: flex;
+  background-color: var(--primary-color);
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--border-radius-general);
+  transition: all 400ms;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+.user__profile_update .image__portfolio .tags a svg {
+  margin-left: 10px;
+}
+
+
+.user__profile_update .image__portfolio_container {
+  height: 400px;
+  background-color: #f5f5f5;
+  margin-top: 20px;
+}
+
+.user__profile_update .image__portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: 200px;
+}
+
+
+.user__profile_update .image__portfolio_container .photos {
+  background-position: center;
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+  .user__profile_update .profile-information__container {
+    width: 90%;
+    margin: 40px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .user__profile_update .profile-information__container .description {
+    margin: 10px 0;
+
+  }
+
+  .user__profile_update .profile-information__container > .about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .user__profile_update .image__portfolio_container {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: 200px;
+  }
+
+}
+
+
+
+  

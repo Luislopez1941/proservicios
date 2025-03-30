@@ -1,0 +1,118 @@
+.card {
+    border-radius: 10px;
+    border: 1px solid #e1e5ea;
+
+}
+
+.card__container {
+
+}
+
+.card__image {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+    background-position: top;
+    background-size: cover;
+}
+
+.card__content {
+    padding: 20px;
+}
+
+.card__content > div {
+    margin: 10px 0;
+}
+
+.card__content > div:first-child {
+    margin-top: 0;
+}
+
+
+.card__content  .name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: hsl(240, 5.9%, 10%);
+}
+
+.card__content > .experience {
+   display: flex;
+}
+
+.card__content > .experience > .number__experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    background-color: var(--black-color-3);
+    color: var(--white-color);
+    margin-right: 10px;
+}
+
+.card__content .reviews {
+    color: hsl(240, 3.8%, 46.1%);
+}
+
+.card__content > .qualifications {
+    display: flex;align-items: center;
+}
+
+.card__content > .qualifications > .score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 197, 94);
+    color: var(--white-color);
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.card__content > .qualifications > .text__title {
+    margin: 0 10px;
+}
+
+
+
+.card__content > .skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__content > .skills > p {
+    padding: 5px 10px;
+    background-color: rgb(244, 244, 245);
+
+    border-radius: 5px;
+    color: var(--black-color-3);
+}
+
+
+
+
+.card__content .starts {
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+}
+
+
+
+
+.card__content > .btn {
+    display: flex;
+    /* justify-content: end; */
+    width: 100%;
+}
+
+.card__content > .btn > button {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+}

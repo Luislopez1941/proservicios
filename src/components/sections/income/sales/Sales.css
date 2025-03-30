@@ -1,0 +1,15 @@
+.sales {
+    
+}
+
+.sales .row__one {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+}
+
+.sales .row__one .options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

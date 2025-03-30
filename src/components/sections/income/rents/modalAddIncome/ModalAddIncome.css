@@ -1,0 +1,127 @@
+.overlay__modal_add_income {
+	background: rgba(0, 0, 0, .3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+	z-index: 10;
+}
+
+.overlay__modal_add_income.active {
+	visibility: visible;
+}
+
+.overlay__modal_add_income .header__modal {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+}
+
+.popup__modal_add_income {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90vw;
+	height: 85vh;
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+	margin-top: 20px;
+	overflow: visible;
+	
+}
+
+.popup__modal_add_income .btn-cerrar-popup__modal_add_income {
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #BBBBBB;
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+
+.popup__modal_add_income .svg__close {
+	fill: #3f7dc08c;
+}
+
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup__modal_add_income.active {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.modal_add_income_container .card_add_income {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+	padding: 20px;
+	overflow: auto;
+}
+
+.modal_add_income_container .row__three {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+.modal_add_income_container .row__four {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.modal_add_income_container .row__five {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: 10px;
+}
+
+.modal_add_income_container .row__six {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: 10px;
+}
+
+.modal_add_income_container .row__btn {
+	padding: 20px;
+}
+
+
+.modal_add_income_container .row__btn button {
+	background-color: var(--primary-color);
+	width: 100%;
+	border: none;
+	height: 40px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+
+
+.modal_add_income_container .photos-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.modal_add_income_container .photos-container .photo {
+	width: 100px;
+	background-size: cover;
+	height: 100px;
+	border-radius: 5px;
+}
+
+
+
+
